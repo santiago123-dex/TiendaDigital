@@ -19,7 +19,7 @@ let ingresarProducto = () => {
 }
 
 
-//hola, este es un comentario
+
 function comprar(carrito) {
     if (carrito.lenght === 0) {
         alert("El carrito esta vacio")
