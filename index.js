@@ -65,24 +65,6 @@ alert("Total a pagar: $"+ carrito.calcularTotal())
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 function menu(){
 let opcion
     do{
