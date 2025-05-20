@@ -5,9 +5,83 @@
     font-family: sans-serif;
 }
 
-.parte-header{
-    background-color: #999;
-    height: 200px;
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 2rem;
+    background-color: #333;
+    color: white;
+    border-bottom: 4px solid #48f;
+}
+
+nav ul{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 2rem;
+    gap: 1rem;
+    padding-right: 3rem;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+nav li{
+    list-style: none;
+}
+
+nav li:hover a{
+    color: #48f;
+    cursor: pointer;
+}
+
+.active{
+    margin-right: auto;
+    margin-left: 2rem;
+}
+
+span{
+    color: #48f;
+    font-weight: bold;
+}
+
+.search{
+    display: flex;
+    color: #fff;
+    width: 100%;
+    padding: 2rem;
+    background-color: #333;
+    gap: 2rem;
+}
+
+.search h2{
+    margin-left: 3rem;
+    flex: 1;
+    text-align: left;
+}
+
+.search form{
+    display: flex;
+    gap: 0.4rem;
+    margin-right: 5rem;
+}
+
+.search input[type="text"]{
+    width: 15rem;
+    padding: 0.5rem 0;
+}
+
+.search input[type="submit"]{
+    background-color: #e1573b;
+    padding: 0.5rem;
+    color: white;
+    border: none;
+    cursor: pointer;
 }
 
 main{
