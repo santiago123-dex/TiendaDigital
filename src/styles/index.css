@@ -22,7 +22,7 @@ nav{
     width: 100%;
     align-items: center;
     padding: 2rem;
-    background-color: #333;
+    background-color: #1C1C1C;
     color: white;
     border-bottom: 4px solid #48f;
 }
@@ -55,10 +55,12 @@ nav li:hover a{
 .active{
     margin-right: auto;
     margin-left: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 span{
-    color: #48f;
+    color: #29ABE2;
     font-weight: bold;
 }
 
@@ -91,7 +93,7 @@ span{
     color: #fff;
     width: 100%;
     padding: 2rem;
-    background-color: #333;
+    background-color: #1C1C1C;
     gap: 2rem;
 }
 
@@ -113,7 +115,7 @@ span{
 }
 
 .search input[type="submit"]{
-    background-color: #e1573b;
+    background-color: #F24D2E;
     padding: 0.5rem;
     color: white;
     border: none;
@@ -150,7 +152,7 @@ span{
 
 footer{
     width: 100%;
-    background-color: #48f;
+    background-color: #0099CC;
     color: white;
     text-align: center;
     padding: 2rem 0;

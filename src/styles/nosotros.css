@@ -5,12 +5,16 @@
     font-family: sans-serif;
 }
 
+body{
+    min-height: 100vh;
+}
+
 nav{
     display: flex;
     width: 100%;
     align-items: center;
     padding: 2rem;
-    background-color: #333;
+    background-color: #1C1C1C;
     color: white;
     border-bottom: 4px solid #48f;
 }
@@ -43,10 +47,12 @@ nav li:hover a{
 .active{
     margin-right: auto;
     margin-left: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 span{
-    color: #48f;
+    color: #29ABE2;
     font-weight: bold;
 }
 
@@ -55,7 +61,7 @@ span{
     color: #fff;
     width: 100%;
     padding: 2rem;
-    background-color: #333;
+    background-color: #1C1C1C;
     gap: 2rem;
 }
 
@@ -77,7 +83,7 @@ span{
 }
 
 .search input[type="submit"]{
-    background-color: #e1573b;
+    background-color: #F24D2E;
     padding: 0.5rem;
     color: white;
     border: none;
@@ -114,7 +120,7 @@ h2{
 .texto2-nosotros{
     margin-top: 10px;
     padding: 15px;
-    background-color: #234;
+    background-color: #2D3E4F;
     color: #fafafa;
 
 }
@@ -129,7 +135,7 @@ h2{
 .info-adicional{
     grid-column: 17/23;
     padding: 30px 10px;
-    background-color: #234;
+    background-color: #2D3E4F;
     display: flex;
     flex-direction: column;
     row-gap: 20px;
@@ -147,7 +153,7 @@ h3{
 }
 
 footer{
-    background-color: #39d;
+    background-color: #0099CC;
     height: 100px;
     display:grid;
     justify-content: center;
