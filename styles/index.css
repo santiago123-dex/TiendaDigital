@@ -4,13 +4,18 @@
     box-sizing: border-box;
 }
 
-body{
+html, body {
+    height: 100%;
+}
+
+body {
+    
     display: flex;
     flex-direction: column;
     font-family: 'Arial', sans-serif;
 }
 
-main{
+main {
     flex: 1;
 }
 
@@ -163,3 +168,80 @@ footer p{
     font-size: 0.8rem;
 }   
 
+/*Medias*/
+
+@media (max-width: 1040px){
+    .header h1{
+        font-size: 2.5rem;
+    }
+
+    .header p{
+        font-size: 1.2rem;
+    }
+
+    .search h2{
+        font-size: 1.5rem;
+    }
+
+    .search input[type="text"]{
+        width: 20rem;
+    }
+}
+
+@media (max-width: 768px){
+    nav ul{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        width: 100%;
+    }
+
+    .active{
+        margin: 0;
+        font-size: 1.5rem;
+    }
+    .search{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .search form{
+        width: 60%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .search input[type="text"]{
+        width: 60%;
+        margin: 0;
+    }
+    .services{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-item{
+        width: 60%;
+    }
+}
+
+@media (max-width: 480px){
+    nav ul{
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    nav li{
+        margin: 0.5rem 0;
+    }
+
+    .header h1{
+        font-size: 1.5rem;
+    }
+
+    .header p{
+        font-size: 0.9rem;
+    }
+}
